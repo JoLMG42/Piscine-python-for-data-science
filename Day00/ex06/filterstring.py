@@ -19,6 +19,7 @@ def main():
         print strings of len > argument2
     """
     # print(main.__doc__)
+    # print(ft_filter.__doc__)
     try:
         assert len(sys.argv) == 3
         assert ((sys.argv[2]).lstrip('+-')).isnumeric() == 1

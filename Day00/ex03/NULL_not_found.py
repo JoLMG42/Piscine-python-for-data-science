@@ -4,7 +4,7 @@ def NULL_not_found(object: any) -> int:
         print("Nothing:", object, t)
     elif (t == float and str(object) == "nan"):
         print("Cheese:", object, t)
-    elif (t == int):
+    elif (t == int and object == 0):
         print("Zero:", object, t)
     elif (object == '' and t == str):
         print("Empty:", t)
